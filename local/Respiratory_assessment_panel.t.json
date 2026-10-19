@@ -17,7 +17,7 @@
     "conversionDetails" : { },
     "otherDetails" : {
       "source" : "RespiratoryAssessmentPanel_LOINCRevision_Dissemination_09282026.xlsx (NKBDI, submitter Susan Matney)",
-      "MD5-CAM-1.0.1" : "aae1df2d5ac829f12b1a2e13339b41b0",
+      "MD5-CAM-1.0.1" : "2e23b78b352edf96a9da6bc7bc40f441",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB"
     },
     "details" : {
@@ -362,7 +362,7 @@
         "nodeId" : "at0.3",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-007.v1",
+        "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-008.v1",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
@@ -716,57 +716,9 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "1..1",
+                      "occurrences" : "0..0",
                       "nodeId" : "at0009.1",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_CODED_TEXT",
-                          "occurrences" : "0..1",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "defining_code",
-                            "existence" : "0..1",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "terminologyId" : {
-                                "value" : "SNOMED-CT"
-                              },
-                              "constraint" : [ "ac0.1" ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ ]
-                        } ]
-                      } ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "nodeId" : "at0009.2",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "value",
-                        "children" : [ {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "DV_CODED_TEXT",
-                          "occurrences" : "0..1",
-                          "attributes" : [ {
-                            "@type" : "C_ATTRIBUTE",
-                            "rmAttributeName" : "defining_code",
-                            "existence" : "0..1",
-                            "children" : [ {
-                              "@type" : "C_TERMINOLOGY_CODE",
-                              "terminologyId" : {
-                                "value" : "SNOMED-CT"
-                              },
-                              "constraint" : [ "ac0.2" ]
-                            } ]
-                          } ],
-                          "attributeTuples" : [ ]
-                        } ]
-                      } ],
+                      "attributes" : [ ],
                       "attributeTuples" : [ ]
                     } ]
                   } ],
@@ -818,20 +770,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "*The rate of spontaneous breathing. (en)"
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
           }
         },
         "ar-sy" : {
@@ -846,20 +784,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "*The rate of spontaneous breathing. (en)"
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
           }
         },
         "es-ar" : {
@@ -874,20 +798,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "*The rate of spontaneous breathing. (en)"
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
           }
         },
         "de" : {
@@ -902,20 +812,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "Die Frequenz der Spontanatmung."
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "Einzelwort, Satz oder Kurzbeschreibung, die die klinische Bedeutung und den Stellenwert der Atmungsbefunde repräsentiert.",
-            "comment" : "Wenn möglich, wird eine Kodierung mit einer Terminologie bevorzugt. Zum Beispiel: Normale Atmung; Anzeichen von Atemnot; Kussmaul-Atmung; Cheyne-Stokes-Beatmung; oder Apnoe-Attacken. Mehrere Angaben sind möglich."
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "Einzelwort, Satz oder Kurzbeschreibung, die die klinische Bedeutung und den Stellenwert der Atmungsbefunde repräsentiert.",
-            "comment" : "Wenn möglich, wird eine Kodierung mit einer Terminologie bevorzugt. Zum Beispiel: Normale Atmung; Anzeichen von Atemnot; Kussmaul-Atmung; Cheyne-Stokes-Beatmung; oder Apnoe-Attacken. Mehrere Angaben sind möglich."
           }
         },
         "en" : {
@@ -924,20 +820,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "The frequency of spontaneous breathing."
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "Single word, phrase or brief description which represents the clinical meaning and significance of the respiration findings.",
-            "comment" : "Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed. "
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "Single word, phrase or brief description which represents the clinical meaning and significance of the respiration findings.",
-            "comment" : "Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed. "
           }
         },
         "fa" : {
@@ -952,20 +834,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "*The rate of spontaneous breathing. (en)"
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
           }
         },
         "nl" : {
@@ -980,20 +848,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "De frequentie van spontane ademhaling."
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "Enkel woord, frase of korte beschrijving die de klinische betekenis of significantie weergeeft van de bevindingen van de ademhaling.",
-            "comment" : "Coderen met een terminologiestelsel verdient, waar mogelijk, de voorkeur. \r\nBijvoorbeeld: normale ademhaling, aanwijzingen voor ademnood, Kussmaul-ademhaling, Cheyne-Stokes ademhaling, apneu episodes. Meerdere toegestaan."
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "Enkel woord, frase of korte beschrijving die de klinische betekenis of significantie weergeeft van de bevindingen van de ademhaling.",
-            "comment" : "Coderen met een terminologiestelsel verdient, waar mogelijk, de voorkeur. \r\nBijvoorbeeld: normale ademhaling, aanwijzingen voor ademnood, Kussmaul-ademhaling, Cheyne-Stokes ademhaling, apneu episodes. Meerdere toegestaan."
           }
         },
         "sv" : {
@@ -1002,20 +856,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "Frekvensen av spontan andning."
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "Ord, fras eller kort beskrivning som fångar den kliniska betydelsen och signifikansen av andningsfynden.",
-            "comment" : "Kodning med en terminologi är att föredra i de fall det är möjligt. Exempelvis normal andning, tecken på andningspåverkan, Kussmauls andning, Cheyne-Stokes andning, eller apnéepisoder. Multipla angivelser är tillåtna."
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "Ord, fras eller kort beskrivning som fångar den kliniska betydelsen och signifikansen av andningsfynden.",
-            "comment" : "Kodning med en terminologi är att föredra i de fall det är möjligt. Exempelvis normal andning, tecken på andningspåverkan, Kussmauls andning, Cheyne-Stokes andning, eller apnéepisoder. Multipla angivelser är tillåtna."
           }
         },
         "nb" : {
@@ -1030,20 +870,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "Åndedrettsfrekvensen målt som åndedrag per minutt."
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "Et enkelt ord eller en frase som uttrykker den kliniske betydningen av funnene ved åndedrettet.",
-            "comment" : "Det anbefales å kode funnene med terminologi dersom det er mulig. For eksempel: Normalt åndedrett, Åndenød, Kussmauls respirasjon, Cheyne-Stokes respirasjon eller apneiske episoder. Flere utsagn er tillatt."
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "Et enkelt ord eller en frase som uttrykker den kliniske betydningen av funnene ved åndedrettet.",
-            "comment" : "Det anbefales å kode funnene med terminologi dersom det er mulig. For eksempel: Normalt åndedrett, Åndenød, Kussmauls respirasjon, Cheyne-Stokes respirasjon eller apneiske episoder. Flere utsagn er tillatt."
           }
         },
         "fi" : {
@@ -1058,20 +884,6 @@
             "code" : "at0004.1",
             "text" : "Respiratory rate",
             "description" : "Hengitystaajuus."
-          },
-          "at0009.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.1",
-            "text" : "Respiration rhythm",
-            "description" : "Hengitystapa taikka yksittäinen sana, fraasi tai lyhyt kuvaus joka edustaa mittausten kliinistä merkitystä.",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
-          },
-          "at0009.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0009.2",
-            "text" : "Respiratory effort",
-            "description" : "Hengitystapa taikka yksittäinen sana, fraasi tai lyhyt kuvaus joka edustaa mittausten kliinistä merkitystä.",
-            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
           }
         }
       },
@@ -1080,9 +892,7 @@
           "at0004.1" : "term:SNOMED-CT::271625008",
           "at0005.1" : "term:SNOMED-CT::278907009",
           "at0016.1" : "term:SNOMED-CT::271626009",
-          "at0024.1" : "term:SNOMED-CT::703852005",
-          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiration-rhythm",
-          "ac0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiratory-effort"
+          "at0024.1" : "term:SNOMED-CT::703852005"
         }
       },
       "terminologyExtracts" : { },
@@ -1320,11 +1130,11 @@
                     }, {
                       "@type" : "C_ARCHETYPE_ROOT",
                       "rmTypeName" : "CLUSTER",
-                      "occurrences" : "0..1",
+                      "occurrences" : "1..1",
                       "nodeId" : "at0005.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ],
-                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-chest-002.v0",
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-002.v2",
                       "referenceType" : "archetypeOverlay"
                     }, {
                       "@type" : "C_ARCHETYPE_ROOT",
@@ -1333,12 +1143,12 @@
                       "nodeId" : "at0005.2",
                       "attributes" : [ ],
                       "attributeTuples" : [ ],
-                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-003.v2",
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-chest-003.v0",
                       "referenceType" : "archetypeOverlay"
                     }, {
                       "@type" : "C_ARCHETYPE_ROOT",
                       "rmTypeName" : "CLUSTER",
-                      "occurrences" : "0..*",
+                      "occurrences" : "0..1",
                       "nodeId" : "at0005.3",
                       "attributes" : [ ],
                       "attributeTuples" : [ ],
@@ -1347,11 +1157,11 @@
                     }, {
                       "@type" : "C_ARCHETYPE_ROOT",
                       "rmTypeName" : "CLUSTER",
-                      "occurrences" : "0..1",
+                      "occurrences" : "0..*",
                       "nodeId" : "at0005.4",
                       "attributes" : [ ],
                       "attributeTuples" : [ ],
-                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-005.v2",
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-005.v2",
                       "referenceType" : "archetypeOverlay"
                     }, {
                       "@type" : "C_ARCHETYPE_ROOT",
@@ -1360,7 +1170,16 @@
                       "nodeId" : "at0005.5",
                       "attributes" : [ ],
                       "attributeTuples" : [ ],
-                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-inspection_body_fluid-sputum-006.v0",
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-006.v2",
+                      "referenceType" : "archetypeOverlay"
+                    }, {
+                      "@type" : "C_ARCHETYPE_ROOT",
+                      "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..1",
+                      "nodeId" : "at0005.6",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ],
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-inspection_body_fluid-sputum-007.v0",
                       "referenceType" : "archetypeOverlay"
                     } ]
                   } ],
@@ -1731,6 +1550,445 @@
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "7bed0e4b-3603-4a0a-8f20-75b80d81be9b",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "419545A4ABAC8966511DFB6F7F5993EA"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.exam.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-002.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.1" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0012.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "1..1",
+          "nodeId" : "at0006.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.2" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0006.2",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.3" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Findings observed during the physical examination of a body system or anatomical structure."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.",
+            "comment" : "For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible."
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.",
+            "comment" : "For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Undersøkelsesfunn gjort ved fysisk undersøkelse av et organsystem eller anatomisk struktur."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Enkelt ord, setning, frase eller kort beskrivelse som representerer den kliniske betydning og viktigheten av funnene ved den fysiske undersøkelsen.",
+            "comment" : "For eksempel \"Uten anmerkning\" eller \"Moderat inflammasjon\". Det anbefales å kode \"Fortolkning\" med en terminologi dersom mulig."
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Enkelt ord, setning, frase eller kort beskrivelse som representerer den kliniske betydning og viktigheten av funnene ved den fysiske undersøkelsen.",
+            "comment" : "For eksempel \"Uten anmerkning\" eller \"Moderat inflammasjon\". Det anbefales å kode \"Fortolkning\" med en terminologi dersom mulig."
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Constatações observadas durante o exame físico de um sistema corporal ou estrutura anatômica."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Palavra, frase ou breve descrição que represente o significado clínico e o significado dos resultados do exame físico.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Palavra, frase ou breve descrição que represente o significado clínico e o significado dos resultados do exame físico.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Während der körperlichen Untersuchung eines Körpersystems oder einer anatomischen Struktur beobachtete Befunde."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Ein einzelnes Wort, eine Phrase oder eine kurze Beschreibung, die die klinische Bedeutung und Wichtigkeit der Untersuchungsergebnisse darstellt.",
+            "comment" : "Zum Beispiel: „Ohne Befund“ oder „Mäßige Entzündung vorhanden“. Wenn möglich, wird die Codierung der „Klinischen Interpretation“ mit einer Terminologie bevorzugt."
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Ein einzelnes Wort, eine Phrase oder eine kurze Beschreibung, die die klinische Bedeutung und Wichtigkeit der Untersuchungsergebnisse darstellt.",
+            "comment" : "Zum Beispiel: „Ohne Befund“ oder „Mäßige Entzündung vorhanden“. Wenn möglich, wird die Codierung der „Klinischen Interpretation“ mit einer Terminologie bevorzugt."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Observerade fynd vid fysisk undersökning av system i kroppen, eller av anatomisk struktur"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Ord, fras eller kort beskrivning av fyndens kliniska betydelse.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Ord, fras eller kort beskrivning av fyndens kliniska betydelse.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "el" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Ευρήματα που παρατηρούνται κατά τη φυσική εξέταση ενός συστήματος σώματος ή ανατομικής δομής."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Μία λέξη, φράση ή σύντομη περιγραφή που αντιπροσωπεύει την κλινική σημασία και σημασία των ευρημάτων της φυσικής εξέτασης.",
+            "comment" : "Για παράδειγμα: «Δεν ανιχνεύθηκε ανωμαλία» ή «Υπάρχει μέτρια φλεγμονή». Προτιμάται η κωδικοποίηση της «κλινικής ερμηνείας» με ορολογία, όπου είναι δυνατόν."
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Μία λέξη, φράση ή σύντομη περιγραφή που αντιπροσωπεύει την κλινική σημασία και σημασία των ευρημάτων της φυσικής εξέτασης.",
+            "comment" : "Για παράδειγμα: «Δεν ανιχνεύθηκε ανωμαλία» ή «Υπάρχει μέτρια φλεγμονή». Προτιμάται η κωδικοποίηση της «κλινικής ερμηνείας» με ορολογία, όπου είναι δυνατόν."
+          }
+        },
+        "es" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Hallazgos observados durante la exploración física de un sistema corporal o estructura anatómica."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Palabra, frase o descripción breve que representa el significado clínico y la importancia de los hallazgos de la exploración física.",
+            "comment" : "Por ejemplo: \"No se detecta ninguna anomalía\" o \"Inflamación moderada\". Se prefiere codificar la \"Interpretación clínica\" con una terminología, siempre que sea posible."
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Palabra, frase o descripción breve que representa el significado clínico y la importancia de los hallazgos de la exploración física.",
+            "comment" : "Por ejemplo: \"No se detecta ninguna anomalía\" o \"Inflamación moderada\". Se prefiere codificar la \"Interpretación clínica\" con una terminología, siempre que sea posible."
+          }
+        },
+        "ca" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of breathing",
+            "description" : "Troballes observades durant l'examen físic d'un sistema corporal o estructura anatòmica."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiration rhythm",
+            "description" : "Paraula única, frase o breu descripció que representa el significat clínic i la significació de les troballes de l'examen físic.",
+            "comment" : "Exemple: 'No s'ha detectat cap anormalitat' o 'inflamació present moderada'. Es prefereix la codificació de la \"interpretació clínica\" amb una terminologia, sempre que sigui possible."
+          },
+          "at0006.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.2",
+            "text" : "Respiratory effort",
+            "description" : "Paraula única, frase o breu descripció que representa el significat clínic i la significació de les troballes de l'examen físic.",
+            "comment" : "Exemple: 'No s'ha detectat cap anormalitat' o 'inflamació present moderada'. Es prefereix la codificació de la \"interpretació clínica\" amb una terminologia, sempre que sigui possible."
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-structure-respiratory-system",
+          "ac0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiration-rhythm",
+          "ac0.3" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiratory-effort"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "06eaf774-4c3f-455d-ba3c-cdb5d81b4e0a",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Nina Schewe, Natalia Strauch, Darin Leonhardt",
+        "organisation" : "Medizinische Hochschule Hannover, PLRI für medizinische Informatik/ Medizinische Hochschule",
+        "email" : "schewe.nina@mh-hannover.de, Strauch.Natalia@mh-hannover.de, leonhardt.darin@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Erik Sundvall",
+        "organisation" : "Region Östergötland + Linköping University",
+        "email" : "erik.sundvall@regionostergotland.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke, Vebjørn Arntzen",
+        "organisation" : "Nasjonal IKT HF, Oslo University Hospital",
+        "email" : "varntzen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima",
+        "organisation" : "Hospital Alemão Oswaldo Cruz - HAOC",
+        "email" : "adrianakitajima@gmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "el"
+      },
+      "author" : {
+        "name" : "Erasmia Partafylla",
+        "organisation" : "Sigmasoft",
+        "email" : "c.partafylla@sigmasoft.gr"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Julio de Sosa, Clara Calleja Vega",
+        "organisation" : "Servei Català de la Salut, CatSalut. Servei Català de la Salut.",
+        "email" : "juliodesosa@catsalut.cat, ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral López",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Tradcrea"
+      }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
     "uid" : "beab77f9-7420-439f-b62e-0d7f3cb59f52",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
@@ -1748,7 +2006,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-exam-chest-002.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-chest-003.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -2036,7 +2294,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-exam-003.v2"
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-004.v2"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -2390,7 +2648,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-exam-004.v2"
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-005.v2"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -2821,7 +3079,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-005.v2"
+      "value" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-006.v2"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -3615,7 +3873,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-inspection_body_fluid-sputum-006.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-inspection_body_fluid-sputum-007.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -3937,7 +4195,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-007.v1"
+      "value" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-008.v1"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
