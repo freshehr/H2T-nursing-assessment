@@ -1,0 +1,4799 @@
+{
+  "@type" : "TEMPLATE",
+  "uid" : "72e13e10-2dc6-5198-9eca-366262f160db",
+  "description" : {
+    "@type" : "RESOURCE_DESCRIPTION",
+    "originalAuthor" : {
+      "date" : "2026-10-19",
+      "name" : "Ian McNicoll",
+      "organisation" : "freshEHR Clinical Informatics"
+    },
+    "otherContributors" : [ ],
+    "lifecycleState" : {
+      "codeString" : "Initial"
+    },
+    "ipAcknowledgements" : { },
+    "references" : { },
+    "conversionDetails" : { },
+    "otherDetails" : {
+      "source" : "RespiratoryAssessmentPanel_LOINCRevision_Dissemination_09282026.xlsx (NKBDI, submitter Susan Matney)",
+      "MD5-CAM-1.0.1" : "aae1df2d5ac829f12b1a2e13339b41b0",
+      "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB"
+    },
+    "details" : {
+      "en" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "en"
+        },
+        "purpose" : "To represent the Nursing Knowledge: Big Data Initiative (NKBDI) Head-to-Toe Respiratory assessment panel (LOINC 80318-9, revision submitted 2026-09-28) in openEHR, using CKM archetypes.",
+        "use" : "Use to record a nursing respiratory assessment: respiratory rate, rhythm and effort; auscultated breath sounds by location; chest symmetry; tracheal position; cough; sputum; an overall within-defined-limits interpretation; and relevant history of respiratory disorders. Value sets are external FHIR ValueSets (SNOMED CT codes as mapped in the NKBDI submission), referenced as terminology://fhir.hl7.org/ValueSet/$expand?url=...; LOINC question and answer codes are carried as node annotations. Respiratory assessment panel (LOINC 80318-9). A nursing physiologic assessment panel of respiratory observations. Member of the Nursing physiologic assessment panel (80346-0). Populated from LOINC release 2.82 export, 2026-06-25.",
+        "misuse" : "Not intended for detailed respiratory physician examination, spirometry, or ventilator documentation.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "de" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "de"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "fi" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fi"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "ko" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ko"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "pt-br" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-br"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "ar-sy" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ar-sy"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "it" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "it"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "fr" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fr"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "pt-pt" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-pt"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "es-ar" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es-ar"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "nb" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nb"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "originalResourceUri" : { },
+        "otherDetails" : {
+          "notes" : "Generated automatically by Adl Designer"
+        }
+      }
+    }
+  },
+  "annotations" : {
+    "@type" : "RESOURCE_ANNOTATIONS",
+    "documentation" : {
+      "en" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "de" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "sv" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "fi" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "ko" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "pt-br" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "ar-sy" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "it" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "fr" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "es" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "pt-pt" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "es-ar" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "nb" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "nl" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      },
+      "ca" : {
+        "" : {
+          "LOINC" : "80318-9 Respiratory assessment panel",
+          "LOINC parent" : "80346-0 Nursing physiologic assessment panel"
+        }
+      }
+    }
+  },
+  "parentArchetypeId" : "openEHR-EHR-COMPOSITION.encounter.v1",
+  "differential" : true,
+  "archetypeId" : {
+    "@type" : "ARCHETYPE_HRID",
+    "value" : "openEHR-EHR-COMPOSITION.t_encounter.v1"
+  },
+  "definition" : {
+    "@type" : "C_COMPLEX_OBJECT",
+    "rmTypeName" : "COMPOSITION",
+    "nodeId" : "at0000.1",
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "context",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "EVENT_CONTEXT",
+        "attributes" : [ ],
+        "attributeTuples" : [ ]
+      } ]
+    }, {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "content",
+      "existence" : "0..1",
+      "children" : [ {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "OBSERVATION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.1",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-respiration-000.v2",
+        "referenceType" : "archetypeOverlay"
+      }, {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "OBSERVATION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.2",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-exam-001.v1",
+        "referenceType" : "archetypeOverlay"
+      }, {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "EVALUATION",
+        "occurrences" : "0..*",
+        "nodeId" : "at0.3",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-007.v1",
+        "referenceType" : "archetypeOverlay"
+      } ]
+    } ],
+    "attributeTuples" : [ ]
+  },
+  "terminology" : {
+    "@type" : "ARCHETYPE_TERMINOLOGY",
+    "conceptCode" : "at0000",
+    "termDefinitions" : {
+      "ar-sy" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        }
+      },
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
+        }
+      },
+      "es-ar" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interacción, contacto o evento de cuidados entre un sujeto de cuidados y uno o más proveedores de cuidados de la salud."
+        }
+      },
+      "ko" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        }
+      },
+      "pt-br" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interação, contato ou cuidado entre o sujeito do cuidado e profissional(is) de saúde."
+        }
+      },
+      "es" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interacción, contacto o evento de cuidado entre un paciente y un proveedor de salud."
+        }
+      },
+      "nl" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interactie, contact of zorggebeurtenis tussen een onderwerp van zorg en zorgverlener(s)."
+        }
+      },
+      "sv" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Kontakt mellan patient och vårdgivare, eller vårdhändelse inom hälso- och sjukvården."
+        }
+      },
+      "de" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interaktion, Kontakt oder Versorgungsereignis, zwischen einem Versorgungsempfänger und einem Gesundheitsdienstleister."
+        }
+      },
+      "fi" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Hoitohenkilön ja terveydenhuollon tarjoajan välinen vuorovaikutus, kontakti- tai hoitotapahtuma."
+        }
+      },
+      "it" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interazione, contatto o evento di cura tra un soggetto di cura e il/i fornitore/i di assistenza sanitaria."
+        }
+      },
+      "fr" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interaction, contact ou événement de soins entre un sujet de soins et un ou des prestataires de soins."
+        }
+      },
+      "nb" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interaksjon, kontakt eller omsorgshendelse mellom et individ og helsepersonell."
+        }
+      },
+      "pt-pt" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interação, contato ou evento de cuidados entre um sujeito e um provedor de saúde."
+        }
+      },
+      "ca" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Respiratory assessment panel",
+          "description" : "Interacció, contacte o esdeveniment d’atenció entre un pacient i un o més professionals d'atenció sanitària."
+        }
+      }
+    },
+    "termBindings" : { },
+    "terminologyExtracts" : { },
+    "valueSets" : { }
+  },
+  "adlVersion" : "1.4",
+  "buildUid" : "f7dc9bde-d493-38c4-b931-2a5e82b46220",
+  "rmName" : "openehr",
+  "rmRelease" : "1.1.0",
+  "generated" : true,
+  "templateId" : "Respiratory_assessment_panel",
+  "otherMetaData" : { },
+  "templateOverlays" : [ {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "418f1d0c-1e4b-4874-8b83-af84b4e7a8f1",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "A1A7B5164F3CFAF0E68A2536547BD79E"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-OBSERVATION.respiration.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-OBSERVATION.ovl-respiration-000.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "OBSERVATION",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "data",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "HISTORY",
+          "nodeId" : "at0001",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "events",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "POINT_EVENT",
+              "occurrences" : "0..1",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0003",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "items",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0062.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at0063", "at0064" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "1..1",
+                      "nodeId" : "at0004.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_QUANTITY",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "property",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "openehr"
+                              },
+                              "constraint" : [ "382" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ {
+                            "@type" : "C_ATTRIBUTE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "magnitude",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "units",
+                              "children" : [ ]
+                            }, {
+                              "@type" : "C_ATTRIBUTE",
+                              "rmAttributeName" : "precision",
+                              "children" : [ ]
+                            } ],
+                            "tuples" : [ {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_REAL",
+                                "constraint" : [ {
+                                  "lower" : 0.0,
+                                  "upper" : 200.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              }, {
+                                "@type" : "C_STRING",
+                                "constraint" : [ "/min" ]
+                              }, {
+                                "@type" : "C_INTEGER",
+                                "constraint" : [ {
+                                  "lower" : 0,
+                                  "upper" : 0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0005.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at0006", "at0007" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0016.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at0017", "at0018", "at0019", "at0025" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0024.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "1..1",
+                      "nodeId" : "at0009.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "occurrences" : "0..1",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "existence" : "0..1",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "SNOMED-CT"
+                              },
+                              "constraint" : [ "ac0.1" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0009.2",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "occurrences" : "0..1",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "existence" : "0..1",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "SNOMED-CT"
+                              },
+                              "constraint" : [ "ac0.2" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "state",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "occurrences" : "1..0",
+                  "nodeId" : "at0022.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "protocol",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0057.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "As características observadas da respiração espontânea, como seriam comumente registradas em uma verificação de \"sinais vitais\"."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "*The rate of spontaneous breathing. (en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          }
+        },
+        "ar-sy" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "الخصائص الملحوظة - المشاهدة- للتنفس التلقائي و الذي عادة ما يتم تسجيله كجزء من فحص العلامات الحياتية"
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "*The rate of spontaneous breathing. (en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          }
+        },
+        "es-ar" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "Las características observadas de la respiración espontánea, tal cual sería comúnmente registrada como parte de una evaluación de signos vitales."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "*The rate of spontaneous breathing. (en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "Die Charakteristiken der Spontanatmung einer Person."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "Die Frequenz der Spontanatmung."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "Einzelwort, Satz oder Kurzbeschreibung, die die klinische Bedeutung und den Stellenwert der Atmungsbefunde repräsentiert.",
+            "comment" : "Wenn möglich, wird eine Kodierung mit einer Terminologie bevorzugt. Zum Beispiel: Normale Atmung; Anzeichen von Atemnot; Kussmaul-Atmung; Cheyne-Stokes-Beatmung; oder Apnoe-Attacken. Mehrere Angaben sind möglich."
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "Einzelwort, Satz oder Kurzbeschreibung, die die klinische Bedeutung und den Stellenwert der Atmungsbefunde repräsentiert.",
+            "comment" : "Wenn möglich, wird eine Kodierung mit einer Terminologie bevorzugt. Zum Beispiel: Normale Atmung; Anzeichen von Atemnot; Kussmaul-Atmung; Cheyne-Stokes-Beatmung; oder Apnoe-Attacken. Mehrere Angaben sind möglich."
+          }
+        },
+        "en" : {
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "The frequency of spontaneous breathing."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "Single word, phrase or brief description which represents the clinical meaning and significance of the respiration findings.",
+            "comment" : "Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed. "
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "Single word, phrase or brief description which represents the clinical meaning and significance of the respiration findings.",
+            "comment" : "Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed. "
+          }
+        },
+        "fa" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : " ویژگی های قابل مشاهده مربوط به تنفس خود بخود که معمولا می توان به عنوان بخشی از آزمایشات \"علایم حیاتی\" ثبت نمود."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "*The rate of spontaneous breathing. (en)"
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "*Respiratory pattern as a single word, phrase or brief description which represents the clinical meaning and significance of the observations. (en)",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          }
+        },
+        "nl" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "Observaties van de spontane ademhaling, zoals deze meestal geregistreerd worden als onderdeel van de observatie van de vitale functies"
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "De frequentie van spontane ademhaling."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "Enkel woord, frase of korte beschrijving die de klinische betekenis of significantie weergeeft van de bevindingen van de ademhaling.",
+            "comment" : "Coderen met een terminologiestelsel verdient, waar mogelijk, de voorkeur. \r\nBijvoorbeeld: normale ademhaling, aanwijzingen voor ademnood, Kussmaul-ademhaling, Cheyne-Stokes ademhaling, apneu episodes. Meerdere toegestaan."
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "Enkel woord, frase of korte beschrijving die de klinische betekenis of significantie weergeeft van de bevindingen van de ademhaling.",
+            "comment" : "Coderen met een terminologiestelsel verdient, waar mogelijk, de voorkeur. \r\nBijvoorbeeld: normale ademhaling, aanwijzingen voor ademnood, Kussmaul-ademhaling, Cheyne-Stokes ademhaling, apneu episodes. Meerdere toegestaan."
+          }
+        },
+        "sv" : {
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "Frekvensen av spontan andning."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "Ord, fras eller kort beskrivning som fångar den kliniska betydelsen och signifikansen av andningsfynden.",
+            "comment" : "Kodning med en terminologi är att föredra i de fall det är möjligt. Exempelvis normal andning, tecken på andningspåverkan, Kussmauls andning, Cheyne-Stokes andning, eller apnéepisoder. Multipla angivelser är tillåtna."
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "Ord, fras eller kort beskrivning som fångar den kliniska betydelsen och signifikansen av andningsfynden.",
+            "comment" : "Kodning med en terminologi är att föredra i de fall det är möjligt. Exempelvis normal andning, tecken på andningspåverkan, Kussmauls andning, Cheyne-Stokes andning, eller apnéepisoder. Multipla angivelser är tillåtna."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "De observerte karakteristika ved spontant åndedrett til et individ."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "Åndedrettsfrekvensen målt som åndedrag per minutt."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "Et enkelt ord eller en frase som uttrykker den kliniske betydningen av funnene ved åndedrettet.",
+            "comment" : "Det anbefales å kode funnene med terminologi dersom det er mulig. For eksempel: Normalt åndedrett, Åndenød, Kussmauls respirasjon, Cheyne-Stokes respirasjon eller apneiske episoder. Flere utsagn er tillatt."
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "Et enkelt ord eller en frase som uttrykker den kliniske betydningen av funnene ved åndedrettet.",
+            "comment" : "Det anbefales å kode funnene med terminologi dersom det er mulig. For eksempel: Normalt åndedrett, Åndenød, Kussmauls respirasjon, Cheyne-Stokes respirasjon eller apneiske episoder. Flere utsagn er tillatt."
+          }
+        },
+        "fi" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiration",
+            "description" : "Havaitut spontaanin hengityksen ominaisuudet, jotka yleensä kirjattaisiin osana ”vitaalimerkit”-tutkimusta."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Respiratory rate",
+            "description" : "Hengitystaajuus."
+          },
+          "at0009.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.1",
+            "text" : "Respiration rhythm",
+            "description" : "Hengitystapa taikka yksittäinen sana, fraasi tai lyhyt kuvaus joka edustaa mittausten kliinistä merkitystä.",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          },
+          "at0009.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0009.2",
+            "text" : "Respiratory effort",
+            "description" : "Hengitystapa taikka yksittäinen sana, fraasi tai lyhyt kuvaus joka edustaa mittausten kliinistä merkitystä.",
+            "comment" : "*Coding with a terminology is preferred, where possible. For example: Normal breathing; Evidence of respiratory distress; Kussmaul's respiration; Cheyne-Stokes respiration; or Apnoeic episodes. Multiple statements are allowed.  (en)"
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "at0004.1" : "term:SNOMED-CT::271625008",
+          "at0005.1" : "term:SNOMED-CT::278907009",
+          "at0016.1" : "term:SNOMED-CT::271626009",
+          "at0024.1" : "term:SNOMED-CT::703852005",
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiration-rhythm",
+          "ac0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiratory-effort"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "15dd9776-7b1c-4c15-a8e4-74a093337f93",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Jasmin Buck, Sebastian Garde, Sarah Ballout, Alina Rehberg",
+        "organisation" : "University of Heidelberg, Central Queensland University, Medizinische Hochschule Hannover",
+        "email" : "ballout.sarah@mh-hannover.de, rehberg.alina@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Kirsi Poikela, Åsa Skagerhult, Manna Vosta, Rikard Lövström",
+        "organisation" : "Tieto Sweden Healthcare & Welfare AB, Region Östergötland, Karolinska University Hospital",
+        "email" : "ext.kirsi.poikela@tieto.com, asa.skagerhult@regionostergotland.se, manna.vosta@regionstockholm.se, rikard.lovstrom@regionstockholm.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fi"
+      },
+      "author" : {
+        "name" : "Vesa Peltola",
+        "organisation" : "Tieto Finland",
+        "email" : "vesa.peltola@tieto.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es-ar"
+      },
+      "author" : {
+        "name" : "Dr. Leonardo Der Jachadurian",
+        "organisation" : "Bitios.com"
+      },
+      "accreditation" : "Medical Doctor (Internal Medicine Specialist)",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Lars Bitsch-Larsen / Vebjørn Arntzen",
+        "organisation" : "Haukeland University Hospital, Bergen, Norway / Oslo universitetssykehus, Norway",
+        "email" : "varntzen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Ana Paula de Andrade",
+        "organisation" : "Core Consulting",
+        "email" : "ana.andrade@coreconsulting.com.br"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "?"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fa"
+      },
+      "author" : {
+        "name" : "Shahla Foozonkhah",
+        "organisation" : "Ocean Informatics"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : {
+        "name" : "Marja Buur, Joost Holslag",
+        "organisation" : "Medisch Centrum Alkmaar, Nedap",
+        "email" : "m.buur-krom@mca.nl, joost.holslag@nedap.com"
+      },
+      "accreditation" : "MD",
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "8ec2d367-1d40-4e57-bf8b-4dde81132a64",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "61D18256DA550BBFD431F41EF7307BE0"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-OBSERVATION.exam.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-OBSERVATION.ovl-exam-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "OBSERVATION",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "data",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "HISTORY",
+          "nodeId" : "at0001",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "events",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "POINT_EVENT",
+              "occurrences" : "0..1",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0003",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "items",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0004.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "1..1",
+                      "nodeId" : "at0006.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "occurrences" : "0..1",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "existence" : "0..1",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "LOINC"
+                              },
+                              "constraint" : [ "ac0.1" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0011.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_ARCHETYPE_ROOT",
+                      "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..1",
+                      "nodeId" : "at0005.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ],
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-chest-002.v0",
+                      "referenceType" : "archetypeOverlay"
+                    }, {
+                      "@type" : "C_ARCHETYPE_ROOT",
+                      "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..1",
+                      "nodeId" : "at0005.2",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ],
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-003.v2",
+                      "referenceType" : "archetypeOverlay"
+                    }, {
+                      "@type" : "C_ARCHETYPE_ROOT",
+                      "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..*",
+                      "nodeId" : "at0005.3",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ],
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-exam-004.v2",
+                      "referenceType" : "archetypeOverlay"
+                    }, {
+                      "@type" : "C_ARCHETYPE_ROOT",
+                      "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..1",
+                      "nodeId" : "at0005.4",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ],
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-005.v2",
+                      "referenceType" : "archetypeOverlay"
+                    }, {
+                      "@type" : "C_ARCHETYPE_ROOT",
+                      "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..1",
+                      "nodeId" : "at0005.5",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ],
+                      "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-inspection_body_fluid-sputum-006.v0",
+                      "referenceType" : "archetypeOverlay"
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "state",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "occurrences" : "1..0",
+                  "nodeId" : "at0009.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "protocol",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0007.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "ar-sy" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "*Findings observed during the physical examination of a subject.(en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "*Single word, phrase or brief description represents the clinical meaning and significance of the physical examination findings.(en)",
+            "comment" : "*Coding with a terminology is preferred, if possible. For example, normal examination or chronic otitis media.(en)"
+          }
+        },
+        "sl" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Za dokumentiranje ugotovitev/znakov fizikalnega pregleda subjekta"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Posamezna beseda, besedna zveza ali kratek opis, ki predstavlja klinični pomen in pomembnost ugotovitev fizičnega pregleda.",
+            "comment" : "Kjer je to mogoče, ima prednost kodiranje s terminologijo. Na primer 'pregled normalen' ali 'predrtje bobniča'."
+          }
+        },
+        "es-ar" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Hallazgos observados durante el examen fisico de una persona"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Palabra, frase o descripcion breve que represente el significado clinico e importancia de los hallazgos del examen fisico",
+            "comment" : "Se prefiere la dodificacion con una terminologia. Por ejemplo, examen normal u otitis media cronica"
+          }
+        },
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Findings observed during the physical examination of a subject of care."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Single word, phrase or brief description which represents the clinical meaning and significance of the physical examination findings.",
+            "comment" : "Coding with a terminology is preferred, if possible. For example, 'normal examination' or 'tympanic membrane perforation'."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Funn ved fysisk undersøkelse av en helsetjenestemottaker."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Enkelt ord, setning, frase eller kort beskrivelse som representerer den kliniske betydning og viktigheten av funnene ved den kliniske undersøkelsen.",
+            "comment" : "Koding med terminologi foretrekkes når mulig. For eksempel \"normal undersøkelse\" eller \"tympanisk membran perforasjon\"."
+          }
+        },
+        "es" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Hallazgos observados durante la examinación física del paciente"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Descripción corta que representa el significado clínico de los hallazgos",
+            "comment" : "*Coding with a terminology is preferred, if possible. For example, 'normal examination' or 'tympanic membrane perforation'.(en)"
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Resultados observados durante o exame físico de um sujeito de atenção."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Palavra única, frase ou breve descrição que representa o significado clínico e dos achados do exame físico.",
+            "comment" : "A codificação com uma terminologia é preferida, se possível. Por exemplo, \"exame normal\" ou \"perfuração da membrana timpânica\"."
+          }
+        },
+        "zh-cn" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "对于特定主体对象进行体格检查过程中所获得的发现。"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "用于表示体格检查发现的临床含义和意义的单个词语、短语或简要描述。",
+            "comment" : "在可能的情况下，首选采用特定的术语集进行编码。例如，“检查正常”或“鼓膜穿孔”。"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Während der körperlichen Untersuchung eines Patienten beobachtete Befunde."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Einzelnes Wort, Ausdruck oder Kurzbeschreibung der klinischen Bedeutung und Aussagekraft der körperlichen Untersuchungsbefunde.",
+            "comment" : "Eine Kodierung mit einer Terminologie wird, wenn möglich, bevorzugt. Zum Beispiel 'normale Untersuchung' oder 'Trommelfellperforation'."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Observerade fynd under en fysisk undersökning av mottagaren av hälso- och sjukvård."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Enkelt ord, fras eller kort beskrivning som representerar den kliniska innebörden och betydelsen av de fysiska undersökningsfynden.",
+            "comment" : "Kodning med en terminologi är att föredra, om möjligt. Till exempel \"normal undersökning\" eller \"trumhinnans perforering\"."
+          }
+        },
+        "ca" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Respiratory examination",
+            "description" : "Troballes observades durant l'examen físic del pacient."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Respiratory assessment interpretation",
+            "description" : "Una sola paraula, frase o descripció breu que englobi el significat clínic i la importància de les troballes de l'examen físic.",
+            "comment" : "Si és possible, es prefereix codificar amb una terminologia. Per exemple, \"examen normal\" o \"perforació de la membrana timpànica\"."
+          }
+        }
+      },
+      "termBindings" : {
+        "LOINC" : {
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=http://loinc.org/vs/LL3816-7"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "b51fe23f-5f6f-404a-8255-d5fbe8c3e9a5",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Nina Schewe",
+        "organisation" : "Medizinische Hochschule Hannover",
+        "email" : "schewe.nina@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Sofia Janstad",
+        "organisation" : "SLL",
+        "email" : "sofia.lang-janstad@sll.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Lars Bitsch-Larsen and Einar Fosse, John Tore Valand, Vebjørn Arntzen",
+        "organisation" : "Haukeland University Hospital Bergen, Norway; UNN HF Centre for Integrated Care and Telemedicine, Helse Bergen, Oslo University Hospital",
+        "email" : "lbla@helse-bergen.no; Einar.Fosse@unn.no, john.tore.valand@helse-vest-ikt.no, varntzen@ous-hf.no"
+      },
+      "accreditation" : "MD, DEAA, MBA, specialist in tropical medic",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es-ar"
+      },
+      "author" : {
+        "name" : "Edgardo Vazquez",
+        "organisation" : "VinculoMedico"
+      },
+      "accreditation" : "Medical Doctor",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima",
+        "organisation" : "Core Consulting",
+        "email" : "adriana.kitajima@coreconsulting.com.br"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sl"
+      },
+      "author" : {
+        "name" : "Uroš Rajkovič, Biljana Prinčič, Anđela Pavlović",
+        "organisation" : "Slovenia, Better",
+        "email" : "andjela.pavlovic@better.care"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Anđela Pavlović, andjela.pavlovic@better.care, Better, Slovenia"
+      }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "Mona Saleh"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "zh-cn"
+      },
+      "author" : {
+        "name" : "Lin Zhang",
+        "organisation" : "BIPH",
+        "email" : "linforest@163.com"
+      },
+      "accreditation" : "?",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Pablo Pazos",
+        "organisation" : "CaboLabs"
+      },
+      "accreditation" : "Computer Engineer",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Julio de Sosa",
+        "organisation" : "Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
+      },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "beab77f9-7420-439f-b62e-0d7f3cb59f52",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "841830204A83CBA2C58F18B4F1E751DE"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.exam-chest.v0",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-chest-002.v0"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0012.0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0006.0.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.0.1" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000.1",
+      "termDefinitions" : {
+        "en" : {
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.",
+            "comment" : "For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible."
+          }
+        },
+        "nb" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Examination of the chest",
+            "description" : "Funn ved fysisk undersøkelse av et organsystem eller anatomisk struktur."
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "Enkelt ord, setning, frase eller kort beskrivelse som representerer den kliniske betydning og viktigheten av funnene ved den fysiske undersøkelsen.",
+            "comment" : "For eksempel \"Uten anmerkning\" eller \"Moderat inflammasjon\". Det anbefales å kode \"Fortolkning\" med en terminologi dersom mulig."
+          }
+        },
+        "pt-br" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Examination of the chest",
+            "description" : "Constatações observadas durante o exame físico de um sistema corporal ou estrutura anatômica."
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "Palavra, frase ou breve descrição que represente o significado clínico e o significado dos resultados do exame físico.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "de" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Examination of the chest",
+            "description" : "Während der körperlichen Untersuchung eines Körpersystems oder einer anatomischen Struktur beobachtete Befunde."
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "Ein einzelnes Wort, eine Phrase oder eine kurze Beschreibung, die die klinische Bedeutung und Wichtigkeit der Untersuchungsergebnisse darstellt.",
+            "comment" : "Zum Beispiel: „Ohne Befund“ oder „Mäßige Entzündung vorhanden“. Wenn möglich, wird die Codierung der „Klinischen Interpretation“ mit einer Terminologie bevorzugt."
+          }
+        },
+        "sv" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Examination of the chest",
+            "description" : "Observerade fynd vid fysisk undersökning av system i kroppen, eller av anatomisk struktur"
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "Ord, fras eller kort beskrivning av fyndens kliniska betydelse.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "el" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Examination of the chest",
+            "description" : "Ευρήματα που παρατηρούνται κατά τη φυσική εξέταση ενός συστήματος σώματος ή ανατομικής δομής."
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "Μία λέξη, φράση ή σύντομη περιγραφή που αντιπροσωπεύει την κλινική σημασία και σημασία των ευρημάτων της φυσικής εξέτασης.",
+            "comment" : "Για παράδειγμα: «Δεν ανιχνεύθηκε ανωμαλία» ή «Υπάρχει μέτρια φλεγμονή». Προτιμάται η κωδικοποίηση της «κλινικής ερμηνείας» με ορολογία, όπου είναι δυνατόν."
+          }
+        },
+        "es" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Examination of the chest",
+            "description" : "*Findings observed during the physical examination of a body system or anatomical structure.(en)"
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Chest symmetry",
+            "description" : "*Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.(en)",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible.(en)"
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-chest-symmetry"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "089d2e36-1ba2-4464-ab01-17754082e426",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Nina Schewe, Natalia Strauch, Darin Leonhardt",
+        "organisation" : "Medizinische Hochschule Hannover, PLRI für medizinische Informatik/ Medizinische Hochschule",
+        "email" : "schewe.nina@mh-hannover.de, Strauch.Natalia@mh-hannover.de, leonhardt.darin@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Erik Sundvall",
+        "organisation" : "Region Östergötland + Linköping University",
+        "email" : "erik.sundvall@regionostergotland.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke",
+        "organisation" : "Nasjonal IKT HF"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima",
+        "organisation" : "Hospital Alemão Oswaldo Cruz - HAOC",
+        "email" : "adrianakitajima@gmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "el"
+      },
+      "author" : {
+        "name" : "Erasmia Partafylla",
+        "organisation" : "Sigmasoft",
+        "email" : "c.partafylla@sigmasoft.gr"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Julio de Sosa",
+        "organisation" : "Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
+      },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "7bed0e4b-3603-4a0a-8f20-75b80d81be9b",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "419545A4ABAC8966511DFB6F7F5993EA"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.exam.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-003.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.1" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0012.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0006.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.2" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Findings observed during the physical examination of a body system or anatomical structure."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.",
+            "comment" : "For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Undersøkelsesfunn gjort ved fysisk undersøkelse av et organsystem eller anatomisk struktur."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Enkelt ord, setning, frase eller kort beskrivelse som representerer den kliniske betydning og viktigheten av funnene ved den fysiske undersøkelsen.",
+            "comment" : "For eksempel \"Uten anmerkning\" eller \"Moderat inflammasjon\". Det anbefales å kode \"Fortolkning\" med en terminologi dersom mulig."
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Constatações observadas durante o exame físico de um sistema corporal ou estrutura anatômica."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Palavra, frase ou breve descrição que represente o significado clínico e o significado dos resultados do exame físico.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Während der körperlichen Untersuchung eines Körpersystems oder einer anatomischen Struktur beobachtete Befunde."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Ein einzelnes Wort, eine Phrase oder eine kurze Beschreibung, die die klinische Bedeutung und Wichtigkeit der Untersuchungsergebnisse darstellt.",
+            "comment" : "Zum Beispiel: „Ohne Befund“ oder „Mäßige Entzündung vorhanden“. Wenn möglich, wird die Codierung der „Klinischen Interpretation“ mit einer Terminologie bevorzugt."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Observerade fynd vid fysisk undersökning av system i kroppen, eller av anatomisk struktur"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Ord, fras eller kort beskrivning av fyndens kliniska betydelse.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "el" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Ευρήματα που παρατηρούνται κατά τη φυσική εξέταση ενός συστήματος σώματος ή ανατομικής δομής."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Μία λέξη, φράση ή σύντομη περιγραφή που αντιπροσωπεύει την κλινική σημασία και σημασία των ευρημάτων της φυσικής εξέτασης.",
+            "comment" : "Για παράδειγμα: «Δεν ανιχνεύθηκε ανωμαλία» ή «Υπάρχει μέτρια φλεγμονή». Προτιμάται η κωδικοποίηση της «κλινικής ερμηνείας» με ορολογία, όπου είναι δυνατόν."
+          }
+        },
+        "es" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Hallazgos observados durante la exploración física de un sistema corporal o estructura anatómica."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Palabra, frase o descripción breve que representa el significado clínico y la importancia de los hallazgos de la exploración física.",
+            "comment" : "Por ejemplo: \"No se detecta ninguna anomalía\" o \"Inflamación moderada\". Se prefiere codificar la \"Interpretación clínica\" con una terminología, siempre que sea posible."
+          }
+        },
+        "ca" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Examination of the trachea",
+            "description" : "Troballes observades durant l'examen físic d'un sistema corporal o estructura anatòmica."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Tracheal position",
+            "description" : "Paraula única, frase o breu descripció que representa el significat clínic i la significació de les troballes de l'examen físic.",
+            "comment" : "Exemple: 'No s'ha detectat cap anormalitat' o 'inflamació present moderada'. Es prefereix la codificació de la \"interpretació clínica\" amb una terminologia, sempre que sigui possible."
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-structure-trachea",
+          "ac0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-tracheal-position"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "06eaf774-4c3f-455d-ba3c-cdb5d81b4e0a",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Nina Schewe, Natalia Strauch, Darin Leonhardt",
+        "organisation" : "Medizinische Hochschule Hannover, PLRI für medizinische Informatik/ Medizinische Hochschule",
+        "email" : "schewe.nina@mh-hannover.de, Strauch.Natalia@mh-hannover.de, leonhardt.darin@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Erik Sundvall",
+        "organisation" : "Region Östergötland + Linköping University",
+        "email" : "erik.sundvall@regionostergotland.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke, Vebjørn Arntzen",
+        "organisation" : "Nasjonal IKT HF, Oslo University Hospital",
+        "email" : "varntzen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima",
+        "organisation" : "Hospital Alemão Oswaldo Cruz - HAOC",
+        "email" : "adrianakitajima@gmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "el"
+      },
+      "author" : {
+        "name" : "Erasmia Partafylla",
+        "organisation" : "Sigmasoft",
+        "email" : "c.partafylla@sigmasoft.gr"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Julio de Sosa, Clara Calleja Vega",
+        "organisation" : "Servei Català de la Salut, CatSalut. Servei Català de la Salut.",
+        "email" : "juliodesosa@catsalut.cat, ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral López",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Tradcrea"
+      }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "7bed0e4b-3603-4a0a-8f20-75b80d81be9b",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "419545A4ABAC8966511DFB6F7F5993EA"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.exam.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-exam-004.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.1" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0012.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.2" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0006.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.3" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Findings observed during the physical examination of a body system or anatomical structure."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "Identification of the area of the body under examination.",
+            "comment" : "For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the physical examination findings.",
+            "comment" : "For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Undersøkelsesfunn gjort ved fysisk undersøkelse av et organsystem eller anatomisk struktur."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "Identifisering av et enkelt fysisk sted enten på eller i menneskekroppen.",
+            "comment" : "For eksempel undersøkelse av et spesifikt område på huden. Dersom den anatomiske lokaliseringen allerede er identifisert i elementet \"Undersøkt organsystem eller struktur\" er dette dataelementet overflødig."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Enkelt ord, setning, frase eller kort beskrivelse som representerer den kliniske betydning og viktigheten av funnene ved den fysiske undersøkelsen.",
+            "comment" : "For eksempel \"Uten anmerkning\" eller \"Moderat inflammasjon\". Det anbefales å kode \"Fortolkning\" med en terminologi dersom mulig."
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Constatações observadas durante o exame físico de um sistema corporal ou estrutura anatômica."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "*Identification of the area of the body under examination. (en)",
+            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Palavra, frase ou breve descrição que represente o significado clínico e o significado dos resultados do exame físico.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Während der körperlichen Untersuchung eines Körpersystems oder einer anatomischen Struktur beobachtete Befunde."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "Identifizierung des untersuchten Körperbereichs.",
+            "comment" : "Zum Beispiel die Untersuchung einer bestimmten Hautpartie. Wenn die Körperstelle im Datenelement „Untersuchtes System oder Struktur“ vollständig identifiziert wurde, wird dieses Datenelement überflüssig."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Ein einzelnes Wort, eine Phrase oder eine kurze Beschreibung, die die klinische Bedeutung und Wichtigkeit der Untersuchungsergebnisse darstellt.",
+            "comment" : "Zum Beispiel: „Ohne Befund“ oder „Mäßige Entzündung vorhanden“. Wenn möglich, wird die Codierung der „Klinischen Interpretation“ mit einer Terminologie bevorzugt."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Observerade fynd vid fysisk undersökning av system i kroppen, eller av anatomisk struktur"
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "*Identification of the area of the body under examination. (en)",
+            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Ord, fras eller kort beskrivning av fyndens kliniska betydelse.",
+            "comment" : "*For example: 'No abnormality detected' or 'Moderate inflammation present'. Coding of the 'Clinical interpretation' with a terminology is preferred, where possible. (en)"
+          }
+        },
+        "el" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Ευρήματα που παρατηρούνται κατά τη φυσική εξέταση ενός συστήματος σώματος ή ανατομικής δομής."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "*Identification of the area of the body under examination. (en)",
+            "comment" : "*For example examination of a specific area of skin. If the body site has been fully identified in the 'System or structure examined' data element, this data element becomes redundant. (en)"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Μία λέξη, φράση ή σύντομη περιγραφή που αντιπροσωπεύει την κλινική σημασία και σημασία των ευρημάτων της φυσικής εξέτασης.",
+            "comment" : "Για παράδειγμα: «Δεν ανιχνεύθηκε ανωμαλία» ή «Υπάρχει μέτρια φλεγμονή». Προτιμάται η κωδικοποίηση της «κλινικής ερμηνείας» με ορολογία, όπου είναι δυνατόν."
+          }
+        },
+        "es" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Hallazgos observados durante la exploración física de un sistema corporal o estructura anatómica."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "Identificación de la zona del cuerpo examinada.",
+            "comment" : "Por ejemplo, el examen de una zona específica de la piel. Si la zona corporal se ha identificado completamente en los elementos de datos «Sistema o estructura examinada», este elemento se vuelve redundante."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Palabra, frase o descripción breve que representa el significado clínico y la importancia de los hallazgos de la exploración física.",
+            "comment" : "Por ejemplo: \"No se detecta ninguna anomalía\" o \"Inflamación moderada\". Se prefiere codificar la \"Interpretación clínica\" con una terminología, siempre que sea posible."
+          }
+        },
+        "ca" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Auscultation of breath sounds",
+            "description" : "Troballes observades durant l'examen físic d'un sistema corporal o estructura anatòmica."
+          },
+          "at0012.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0012.1",
+            "text" : "Location of breath sounds",
+            "description" : "Identificació de l'àrea de l'organisme objecte d'examen.",
+            "comment" : "Exemple: l'examen d'una àrea específica de la pell. Si el lloc del cos ha estat completament identificat en l'element de dades \"Sistema o estructura examinada\", aquest element de dades esdevé redundant."
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.1",
+            "text" : "Breath sounds",
+            "description" : "Paraula única, frase o breu descripció que representa el significat clínic i la significació de les troballes de l'examen físic.",
+            "comment" : "Exemple: 'No s'ha detectat cap anormalitat' o 'inflamació present moderada'. Es prefereix la codificació de la \"interpretació clínica\" amb una terminologia, sempre que sigui possible."
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-structure-lung",
+          "ac0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-breath-sounds-location",
+          "ac0.3" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-breath-sounds"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "06eaf774-4c3f-455d-ba3c-cdb5d81b4e0a",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Nina Schewe, Natalia Strauch, Darin Leonhardt",
+        "organisation" : "Medizinische Hochschule Hannover, PLRI für medizinische Informatik/ Medizinische Hochschule",
+        "email" : "schewe.nina@mh-hannover.de, Strauch.Natalia@mh-hannover.de, leonhardt.darin@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Erik Sundvall",
+        "organisation" : "Region Östergötland + Linköping University",
+        "email" : "erik.sundvall@regionostergotland.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke, Vebjørn Arntzen",
+        "organisation" : "Nasjonal IKT HF, Oslo University Hospital",
+        "email" : "varntzen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima",
+        "organisation" : "Hospital Alemão Oswaldo Cruz - HAOC",
+        "email" : "adrianakitajima@gmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "el"
+      },
+      "author" : {
+        "name" : "Erasmia Partafylla",
+        "organisation" : "Sigmasoft",
+        "email" : "c.partafylla@sigmasoft.gr"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Julio de Sosa, Clara Calleja Vega",
+        "organisation" : "Servei Català de la Salut, CatSalut. Servei Català de la Salut.",
+        "email" : "juliodesosa@catsalut.cat, ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral López",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Tradcrea"
+      }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "88c7d677-fa69-498f-aec2-976c53d15a6f",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "6693D3AAC8F91648625B726EC5070CCD"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.symptom_sign.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-005.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.1" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0151.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0002.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0175.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0176", "at0178", "at0177" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0186.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0187", "at0188" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0152.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DATE_TIME",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_INTERVAL<DV_DATE_TIME>",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0164.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DURATION",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0200.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0028.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DURATION",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_DURATION",
+                  "rmTypeName" : "DURATION",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : "PT0S",
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "lower",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DURATION",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_DURATION",
+                      "rmTypeName" : "DURATION",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : "PT0S",
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "upper",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DURATION",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_DURATION",
+                      "rmTypeName" : "DURATION",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : "PT0S",
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0021.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0023", "at0024", "at0025" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0189.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.2" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0180.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0183", "at0182", "at0181", "at0184" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "CLUSTER",
+          "occurrences" : "0..0",
+          "nodeId" : "at0018.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "CLUSTER",
+          "occurrences" : "0..0",
+          "nodeId" : "at0165.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "CLUSTER",
+          "occurrences" : "0..0",
+          "nodeId" : "at0190.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0155.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0037.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0161.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0057.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0031.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_COUNT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "magnitude",
+                "children" : [ {
+                  "@type" : "C_INTEGER",
+                  "rmTypeName" : "Integer",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : 0,
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0163.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "ar-sy" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "*Reported observation of a physical or mental disturbance in an individual.(en)"
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "*The name of the reported symptom or sign.(en)",
+            "comment" : "*Symptom name should be coded with a terminology, where possible.(en)"
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "*Word or short phrase describing the nature of the symptom or sign. (en)",
+            "comment" : "*For example: pain could be described as 'gnawing', 'burning', or 'like an electric shock'; a headache could be 'throbbing' or 'constant'. Coding with an external terminology is preferred, where possible. (en)"
+          }
+        },
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Reported observation of a physical or mental disturbance in an individual."
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "Word or short phrase describing the nature of the symptom or sign.",
+            "comment" : "For example: pain could be described as 'gnawing', 'burning', or 'like an electric shock'; a headache could be 'throbbing' or 'constant'. Coding with an external terminology is preferred, where possible."
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Berichtete Beobachtung einer körperlichen oder psychischen Störung bei einer Person."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "Der Name des berichteten Symptoms/Krankheitsanzeichens.",
+            "comment" : "Der Name des Symptoms sollte, wenn möglich, mit einer Terminologie kodiert werden."
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "Wort oder kurzer Satz, mit dem die Art des Symptoms/Krankheitsanzeichens beschrieben wird.",
+            "comment" : "Zum Beispiel: Schmerzen können als \"bohrend\", \"brennend\" oder \"wie ein Stromschlag\" beschrieben werden; Kopfschmerzen können \"pochend\" oder \"konstant\" sein. Wenn möglich soll eine Kodierung mit einer externen Terminologie bevorzugt werden."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Rapportert observasjon av fysiske tegn eller beskrivelse av unormale eller ubehagelige fornemmelser i kropp og/eller sinn."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet.",
+            "comment" : "Navnet på symptom/sykdomstegn bør kodes med en terminologi om mulig."
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "Ord eller en kort frase som beskriver symptomets eller sykdomstegnets karakter.",
+            "comment" : "For eksempel: Smerte kan beskrives som \"gnagende\", \"brennende\" eller \"som et elektrisk støt\", mens en hodepine kan være \"bankende\" eller \"konstant\". Karakteren bør kodes med en terminologi, der det er mulig."
+          }
+        },
+        "fi" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Reported observation of a physical or mental disturbance in an individual.(en)"
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "The name of the reported symptom or sign.(en)",
+            "comment" : "*Symptom name should be coded with a terminology, where possible.(en)"
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "*Word or short phrase describing the nature of the symptom or sign. (en)",
+            "comment" : "*For example: pain could be described as 'gnawing', 'burning', or 'like an electric shock'; a headache could be 'throbbing' or 'constant'. Coding with an external terminology is preferred, where possible. (en)"
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Rapporterat symtom eller observerat tecken på fysisk eller psykisk påverkan hos en individ."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "Namnet på det rapporterade symtomet eller tecknet.",
+            "comment" : "Koda om möjligt namnet på symtomet med en terminologi."
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "Ord eller kort fras som beskriver symtomets (eller tecknets) egenskaper.",
+            "comment" : "Exempelvis smärta kan beskrivas som \"gnagande\", \"brännande\" eller \"som en elektrisk stöt\". Huvudvärk kan vara \"bultande\" eller \"konstant\". Koda om möjligt med extern terminologi."
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Observação de um distúrbio físico ou mental relatada em um indivíduo."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "O nome do sintoma ou sinal relatado.",
+            "comment" : "Nome do sintoma deve ser codificado com uma terminologia, se possível."
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "*Word or short phrase describing the nature of the symptom or sign. (en)",
+            "comment" : "*For example: pain could be described as 'gnawing', 'burning', or 'like an electric shock'; a headache could be 'throbbing' or 'constant'. Coding with an external terminology is preferred, where possible. (en)"
+          }
+        },
+        "nl" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Vastgestelde observatie van een fysieke of mentale afwijking bij een individu."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "De naam van het vastgelegde symptoom",
+            "comment" : "*Symptom name should be coded with a terminology, where possible.(en)"
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "*Word or short phrase describing the nature of the symptom or sign.(en)",
+            "comment" : "*For example: pain could be described as 'gnawing', 'burning', or 'like an electric shock'; a headache could be 'throbbing' or 'constant'. Coding with an external terminology is preferred, where possible.(en)"
+          }
+        },
+        "ca" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Cough",
+            "description" : "Observació notificada d’una alteració física o mental en un pacient."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Symptom/Sign name",
+            "description" : "El nom del símptoma o signe notificat.",
+            "comment" : "Es recomana programar el nom del símptoma amb una terminologia quan sigui possible."
+          },
+          "at0189.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0189.1",
+            "text" : "Cough type",
+            "description" : "Paraula o oració breu que descrigui la natura del símptoma o signe.",
+            "comment" : "Per exemple: el dolor es pot descriure com «persistent», «roent» o «com una descàrrega elèctrica»; el mal de cap pot ser «palpitant» o «constant». Es recomana programar amb una terminologia externa quan sigui possible."
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-symptom-cough",
+          "at0152.1" : "term:SNOMED-CT::405795006",
+          "at0028.1" : "term:SNOMED-CT::162434008",
+          "at0021.1" : "term:SNOMED-CT::405162009",
+          "ac0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-cough-type"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "e45fe563-4cb6-4d98-aea3-07e9a7c01aaf",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Sebastian Garde, Kim Sommer, Natalia Strauch, Alina Rehberg",
+        "organisation" : "University of Heidelberg, Central Queensland University, Medizinische Hochschule Hannover",
+        "email" : "Strauch.Natalia@mh-hannover.de, rehberg.alina@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fi"
+      },
+      "author" : {
+        "name" : "Kalle Vuorinen",
+        "organisation" : "Tieto Healthcare & Welfare Oy",
+        "email" : "kalle.vuorinen@tieto.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Kirsi Poikela; Erik Sundvall, Jörgen Kuylenstierna, Åsa Skagerhult, Per Nemirovski, Manna Vosta",
+        "organisation" : "Tieto Sweden AB; Karolinska Institutet, Karolinska University Hospital, Region Stockholm + Linköping University, Karolinska Institutet + Karolinska University Hospital, Region Stockholm + Linköping University, eWeave AB, Region Östergötland + Region Uppsala, B3 HealthTech, Västra Götalandsregionen",
+        "email" : "ext.kirsi.poikela@tieto.com, erik.sundvall@regionstockholm.se, jorgen.kuylenstierna@solvikshalsan.se, asa.skagerhult@regionostergotland.se, per.pertoft.nemirovski@regionuppsala.se, per.nemirovski@b3.se, manna.vosta@regionstockholm.se, asa.skagerhult@vgregion.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Lars Bitsch-Larsen, Silje Ljosland Bakke, John Tore Valand, Kanika Kuwelker",
+        "organisation" : "Haukeland University Hospital of Bergen, Norway, Helse Vest IKT AS",
+        "email" : "lbla@helse-bergen.no, silje.ljosland.bakke@helse-vest-ikt.no, john.tore.valand@helse-vest-ikt.no, kanika.kuwelker@helse-vest-ikt.no"
+      },
+      "accreditation" : "MD, DEAA, MBA, spec in anesthesia, spec in tropical medicine.",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Vladimir Pizzo",
+        "organisation" : "Hospital Sirio Libanes - Brazil",
+        "email" : "vladimir.pizzo@hsl.org.br"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "Mona Saleh"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : {
+        "name" : "Joost Holslag",
+        "organisation" : "Nedap, Joost Holslag Geneeskunde & Advies",
+        "email" : "joost.holslag@nedap.com, info@joostholslag.nl"
+      },
+      "accreditation" : "MD",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Manuel José Zafra Doménech",
+        "organisation" : "TRADCREA, S.L.",
+        "email" : "mzafra@tradcrea.com"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Servei Català de la Salut"
+      }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "c641a63d-c6a9-4994-9fb1-fc926de84136",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "FD0B806F2040EC6B5C1087EF1F842C6A"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.inspection_body_fluid-sputum.v0",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-inspection_body_fluid-sputum-006.v0"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0.5.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0.6", "at0.7", "at0.8" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0.2.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0.3", "at0.4" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0018.1.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0.9", "at0.10", "at0.11", "at0.12", "at0.13", "at0.14", "at0.15", "at0.16", "at0.17" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0017.0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0022.0.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0023", "at0024", "at0025", "at0026" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0021.1.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "CODE_PHRASE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "at0027", "at0028" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0006.0.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.0.1" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..1",
+          "nodeId" : "at0006.0.2",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "0..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "existence" : "0..1",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ "ac0.0.2" ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0007.0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000.1",
+      "termDefinitions" : {
+        "en" : {
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Sputum characteristics",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the examination findings."
+          },
+          "at0006.0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.2",
+            "text" : "Sputum volume",
+            "description" : "Single word, phrase or brief description that represents the clinical meaning and significance of the examination findings."
+          }
+        },
+        "nb" : {
+          "at0000.1.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1.1",
+            "text" : "Inspection of sputum",
+            "description" : "Funn observert under undersøkelse av en kroppsvæske på et kroppssted eller fra en identifisert kroppskilde. Undersøkelsen gjøres vanligvis som en del av en fysisk undersøkelse utført av en kliniker."
+          },
+          "at0006.0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.1",
+            "text" : "Sputum characteristics",
+            "description" : "Enkelt ord, frase eller kort beskrivelse som representerer klinisk betydning og signifikans ved funnene."
+          },
+          "at0006.0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006.0.2",
+            "text" : "Sputum volume",
+            "description" : "Enkelt ord, frase eller kort beskrivelse som representerer klinisk betydning og signifikans ved funnene."
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-sputum-characteristics",
+          "ac0.0.2" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-sputum-volume"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "7e6fa172-db89-4024-a0e1-296bded46223",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Kristian Berg, John Tore Valand",
+        "organisation" : "Helse Nord, Helse Vest"
+      },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "cc3a20b3-8928-4c2a-babd-fe9e28987be7",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "3784CDA20920BF84035159DDC43A4D62"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-EVALUATION.ovl-problem_diagnosis-007.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "EVALUATION",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "data",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0001",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "0..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "existence" : "0..1",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ "ac0.1" ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0079.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0009.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0012.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0078.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0005.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "CODE_PHRASE",
+                      "occurrences" : "1..1",
+                      "terminologyId" : {
+                        "value" : "local"
+                      },
+                      "constraint" : [ "at0047", "at0048", "at0049" ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0080.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0072.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0030.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0073.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "CODE_PHRASE",
+                      "occurrences" : "1..1",
+                      "terminologyId" : {
+                        "value" : "local"
+                      },
+                      "constraint" : [ "at0074", "at0075", "at0076" ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "es" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Detalles sobre una única condición de salud, lesión, discapacidad o cualquier otro problema identificado que afecte al bienestar físico, mental y/o social de un individuo.",
+            "comment" : "En la práctica, no es fácil distinguir claramente entre el alcance de un problema y el de un diagnóstico. A efectos de la documentación clínica con este arquetipo, el problema y el diagnóstico se consideran un continuo, con niveles crecientes de detalle y evidencia de apoyo que generalmente aportan peso a la etiqueta de \"diagnóstico\"."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identificación del problema o diagnóstico, por nombre.",
+            "comment" : "Siempre que sea posible, es preferible codificar el nombre del problema o diagnóstico con una terminología."
+          }
+        },
+        "es-ar" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Detalles acerca de una condición de salud, lesión, incapacidad o cualquier otra cuerstión, univocamente identificadas, que impacta sobre el bienestar físico, mental y/o social de un individuo",
+            "comment" : "La delineación entre el alcance de un problema versus el diagnóstico puede no ser fácil de lograr en la práctica. A los fines de la documentación clínica mediante este arquetipo, problema y diagnóstico son considerados un continuo, donde niveles incrementales de detalles y evidencia de apoyo otorgan mas peso a la etiqueta de \"diagnóstico\"."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identificación del problema o diagnóstico, por nombre.",
+            "comment" : "Se prefiere la codificación del nombre del problema o diagnóstico mediante una terminología cuando esto sea posible."
+          }
+        },
+        "de" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Angaben über einen einzelnen identifizierten Gesundheitszustand, eine Verletzung, eine Behinderung oder ein Problem, welches das körperliche, geistige und/oder soziale Wohlergehen einer Einzelperson beeinträchtigt.",
+            "comment" : "Eine klare Abgrenzung zwischen Problem und Diagnose ist in der Praxis nicht einfach zu erreichen. Für die Zwecke der klinischen Dokumentation mit diesem Archetyp werden Problem und Diagnose als ein Kontinuum betrachtet, mit zunehmendem Detaillierungsgrad und unterstützenden Beweisen, die in der Regel dem Etikett \"Diagnose\" Gewicht verleihen."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Namentliche Bezeichnung des Symptoms (\"medical Problem\") oder der Diagnose.",
+            "comment" : "Wo möglich, ist die Kodierung des Problems oder der Diagnose über eine Terminologie zu bevorzugen."
+          }
+        },
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.",
+            "comment" : "Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identification of the problem or diagnosis, by name.",
+            "comment" : "Coding of the name of the problem or diagnosis with a terminology is preferred, where possible."
+          }
+        },
+        "ar-sy" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "*Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.(en)",
+            "comment" : "*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)"
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "*Identification of the problem or diagnosis, by name.(en)",
+            "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
+          }
+        },
+        "pt-br" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Detalhes sobre uma única condição de saúde identificada, lesões, deficiência ou qualquer outra questão que tenha impacto sobre o bem-estar físico, mental e / ou social de um indivíduo.",
+            "comment" : "Delimitação clara entre o âmbito de um problema em comparação a um diagnóstico, não é fácil de se conseguir na prática. Para fins de documentação clínica com este arquétipo, problema e diagnóstico são considerados como uma continuidade, com níveis crescentes de detalhes e evidência de apoio, geralmente fornecendo peso para o rótulo de \"diagnóstico\"."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identificação do problema ou diagnóstico, por nome.",
+            "comment" : "Quando possível, é preferível usar a codificação do nome do problema ou diagnóstico com uma terminologia."
+          }
+        },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Detaljer om én identifisert helsetilstand, skade, funksjonshemming eller annet forhold som påvirker et individs fysiske, mentale og/eller sosiale velvære.",
+            "comment" : "Det er i praksis ikke lett å oppnå et klart skille mellom et problem og en diagnose. I klinisk dokumentasjon med denne arketypen ses problem og diagnose som et kontinuum, med økende krav til detaljer og støttende evidens for å underbygge en diagnose."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identifisering av problemet eller diagnosen ved hjelp av navn.",
+            "comment" : "Koding av navnet på problemet eller diagnosen med en terminologi er foretrukket hvis mulig."
+          }
+        },
+        "sv" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Detaljer om enskilt identifierat hälsotillstånd, skada, funktionshinder eller något annat problem som påverkar individens fysiska, psykiska och eller sociala välbefinnande.",
+            "comment" : "Gränsen mellan problem och diagnos är flytande. En ökad detaljnivå och mer stödjande evidens väger normalt över mot att tillståndet benämns diagnos."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Problemets eller diagnosens benämning.",
+            "comment" : "Om möjligt, koda problemet eller diagnosen med en terminologi."
+          }
+        },
+        "ko" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "한 개인의 신체, 정신 그리고/또는 사회적 웰빙에 영향을 주는 단일한 확인된 건강 성태, 상해, 장애 또는 다른 이슈에 대한 상세내용.",
+            "comment" : "실무에서 문제와 진단의 범위 간의 명확한 구분을 하기 쉽지 않음. 이 아키타입을 통한 임상 문서의 목적을 위해서, 증가하는 상세내용의 수준과 일반적으로 '진단'의 표시에 대한 무게감을 제공하는 지지할 수 있는 증거를 가지고, 문제와 진단은 연속된 것(a continuum)으로 간주됨."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "명칭으로 문제 또는 진단의 식별.",
+            "comment" : "가능하다면, 용어체계를 통한 문제 또는 진단의 명칭을 코딩하는 것이 좋음."
+          }
+        },
+        "fi" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Yksityiskohdat yksittäisestä tunnistetusta terveystilasta, vammasta, vammasta tai muusta aiheesta, joka vaikuttaa yksilön fyysiseen, henkiseen ja / tai sosiaaliseen hyvinvointiin.",
+            "comment" : "*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)"
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Ongelman tai diagnoosin tunnistaminen nimellä.",
+            "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
+          }
+        },
+        "it" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Dettagli su una specifica condizione di salute, una lesione, una disabilità o un qualsiasi altro problema individuato su un individuo che abbia un impatto sul benessere fisico, mentale e/o sociale.",
+            "comment" : "Nella pratica, non è facile fare una distinzione netta tra gli ambiti dei concetti 'problema' e 'diagnosi'. Ai fini della documentazione clinica con questo archetipo, problema e diagnosi sono considerati un continuum, con livelli crescenti di dettagli ed evidenze a supporto a supporto dell'etichetta 'diagnosi'."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Nome/identificativo del problema o della diagnosi.",
+            "comment" : "Si preferisce, ove possibile, la codifica del problema o diagnosi con una terminologia."
+          }
+        },
+        "nl" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Informatie over een enkele vast te stellen medische aandoening, een letsel, beperking of andere zaak die invloed heeft op de fysieke, mentale en/of het sociale welbevinden van een individu.",
+            "comment" : "*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)"
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identificatie van het probleem of de diagnose bij naam.\r\n                            ",
+            "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
+          }
+        },
+        "zh" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "*Details about a single identified health condition, injury, disability or any other issue which impacts  the physical, mental and/or social wellbeing of an individual.(en)",
+            "comment" : "*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)"
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "*Identification of the problem or diagnosis, by name.(en)",
+            "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
+          }
+        },
+        "ca" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Detalls sobre una única condició de salut, lesió, discapacitat o qualsevol altre problema identificat que afecti el benestar físic, mental o social d’una persona. ",
+            "comment" : "No és fàcil trobar en la pràctica una delineació clara entre l’abast d’un problema versus un diagnòstic. Per a la finalitat d’aquest arquetip, problema i diagnòstic es veuran com un continu, amb l’increment de nivells de detalls i una evidència d’ajuda normalment que doni pes sobre l’etiqueta «diagnòstic»."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identificació del problema o diagnòstic pel nom.",
+            "comment" : "Es recomana programar el nom del problema o diagnòstic amb una terminologia sempre que sigui possible."
+          }
+        },
+        "zh-cn" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "关于单个已明确的健康状况、损伤、残疾或任何其他影响个人身体健康、心理健康和/或社会福祉的问题/事项的详情。",
+            "comment" : "在实践当中，问题与诊断范围的明确区分/划定并非易事。对于利用本原始型的临床文档记录目的来说，在此会将问题与诊断视为统一的连续体系，且由问题到诊断，不断增加的细节水平和支持性证据通常会为“诊断”标签带来更大的权重。"
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "利用名称对问题或诊断的标识。",
+            "comment" : "尽可能首选采用术语标准对问题或诊断的名称进行编码。"
+          }
+        },
+        "fr" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "History of respiratory system disorder",
+            "description" : "Informations détaillées concernant un état de santé, une blessure, un handicap ou tout autre problème identifié ayant une incidence sur le bien-être physique, mental et/ou social d’une personne.",
+            "comment" : "Dans la pratique, il n’est pas facile d’établir une distinction claire entre la portée d’un problème et celle d’un diagnostic. Aux fins de la documentation clinique avec cet archétype, le problème et le diagnostic sont considérés comme un continuum, où des niveaux croissants de détail et de preuves à l’appui confèrent généralement plus de poids à la notion de « diagnostic »."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Respiratory system disorder",
+            "description" : "Identification du problème ou du diagnostic, par son nom.",
+            "comment" : "Dans la mesure du possible, il est préférable de coder le nom du problème ou du diagnostic à l’aide d’une terminologie."
+          }
+        }
+      },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "ac0.1" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://freshehr.com/fhir/ValueSet/nkbdi-respiratory-disorder"
+        }
+      },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "f19a7678-9018-4081-ad5e-51935bd99fa9",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Aljoscha Kindermann, Jasmin Buck, Sebastian Garde, Natalia Strauch, Alina Rehberg, Katharina Ginter, Annika Merkt",
+        "organisation" : "Universityhospital of Heidelberg, University of Heidelberg, Central Queensland University, Medizinische Hochschule Hannover, vitagroup AG",
+        "email" : "Strauch.Natalia@mh-hannover.de, rehberg.alina@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Kirsi Poikela, Jörgen Kuylenstierna, Anette Larsson, Åsa Skagerhult, Per Nemirovski, Manna Vosta",
+        "organisation" : "Tietoevry Sweden AB, eWeave AB, Region Östergötland, Region Uppsala, Karolinska University Hospital, Västra Götalandsregionen",
+        "email" : "ext.kirsi.poikela@tieto.com, jorgen.kuylenstierna@solvikshalsan.se, anette.a.larsson@tietoevry.com, asa.skagerhult@regionostergotland.se, per.pertoft.nemirovski@regionuppsala.se, manna.vosta@regionstockholm.se, asa.skagerhult@vgregion.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fi"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ko"
+      },
+      "author" : {
+        "name" : "Seung-Jong Yu",
+        "organisation" : "InfoClinic Co.,Ltd.",
+        "email" : "seungjong.yu@gmail.com"
+      },
+      "accreditation" : "M.D.",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima, Gabriela Alves, Maria Angela Scatena, Marivan Abrahäo",
+        "organisation" : "Core Consulting",
+        "email" : "contato@coreconsulting.com.br"
+      },
+      "accreditation" : "Hospital Alemão Oswaldo Cruz (HAOC)",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "Mona Saleh"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "it"
+      },
+      "author" : {
+        "name" : "Cecilia Mascia",
+        "organisation" : "CRS4 - Center for advanced studies, research and development in Sardinia, Pula (Cagliari), Italy",
+        "email" : "cecilia.mascia@crs4.it"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fr"
+      },
+      "author" : {
+        "name" : "Jonas Bucher",
+        "organisation" : "Cistec AG",
+        "email" : "jonas.bucher@cistec.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "zh-cn"
+      },
+      "author" : {
+        "name" : "Lin Zhang",
+        "organisation" : "Freelancer",
+        "email" : "linforest@163.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Pablo Pazos, Julio de Sosa",
+        "organisation" : "CaboLabs, Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
+      },
+      "accreditation" : "Computer Engineer",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "zh"
+      },
+      "author" : {
+        "name" : "Yexuan Cheng",
+        "organisation" : "浙江大学",
+        "email" : "3160100913@zju.edu.cn"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es-ar"
+      },
+      "author" : {
+        "name" : "Alan March",
+        "organisation" : "Hospital Universitario Austral, Buenos Aires, Argentina",
+        "email" : "alandmarch@gmail.com"
+      },
+      "accreditation" : "-",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke, John Tore Valand, Liv Laugen, Vebjørn Arntzen",
+        "organisation" : "Helse Bergen HF, ​Oslo University Hospital, Norway",
+        "email" : "liv.laugen@ous-hf.no, varntzen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : {
+        "name" : "Joost Holslag",
+        "organisation" : "Nedap",
+        "email" : "joost.holslag@nedap.com"
+      },
+      "accreditation" : "MD",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Manuel José Zafra Doménech",
+        "organisation" : "TRADCREA, S.L.",
+        "email" : "mzafra@tradcrea.com"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Servei Català de la Salut"
+      }
+    } ]
+  } ],
+  "originalLanguage" : {
+    "terminologyId" : {
+      "value" : "ISO_639-1"
+    },
+    "codeString" : "en"
+  },
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "author" : {
+      "name" : "Anneka Sargeant",
+      "organisation" : "Medizinische Informatik, UMG",
+      "email" : "anneka.sargeant@med.uni-goettingen.de"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : {
+      "name" : "Kirsi Poikela, Per Nemirovski, Åsa Skagerhult, Manna Vosta",
+      "organisation" : "Tieto Sweden AB, B3 HealthTech, Region Östergötland, Karolinska University Hospital",
+      "email" : "ext.kirsi.poikela@tieto.com, per.nemirovski@b3.se, asa.skagerhult@regionostergotland.se, manna.vosta@regionstockholm.se"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fi"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ko"
+    },
+    "author" : {
+      "name" : "Seung-Jong Yu",
+      "organisation" : "NOUSCO Co.,Ltd.",
+      "email" : "seungjong.yu@gmail.com"
+    },
+    "accreditation" : "Certified Board of Family Medicine in South Korea",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-br"
+    },
+    "author" : {
+      "name" : "Vladimir Pizzo",
+      "organisation" : "Hospital Sirio Libanes, Brazil",
+      "email" : "vladimir.pizzo@hsl.org.br"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ar-sy"
+    },
+    "author" : {
+      "name" : "Mona Saleh"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "it"
+    },
+    "author" : {
+      "name" : "Paolo Anedda",
+      "organisation" : "Inpeco",
+      "email" : "paolo.anedda@inpeco.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fr"
+    },
+    "author" : {
+      "name" : "Vanessa Pereira",
+      "organisation" : "Better - Pathfinder",
+      "email" : "vanessapereira@protonmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : {
+      "name" : "Pablo Pazos, Clara Calleja Vega",
+      "organisation" : "CaboLabs, CatSalut. Servei Català de la Salut.",
+      "email" : "ccalleja@catsalut.cat"
+    },
+    "accreditation" : "Computer Engineer",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-pt"
+    },
+    "author" : {
+      "name" : "Diana Ferreira",
+      "email" : "dianaferreira_16@hotmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es-ar"
+    },
+    "author" : {
+      "name" : "Edgardo Vazquez",
+      "organisation" : "VinculoMedico"
+    },
+    "accreditation" : "Medical Doctor",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nb"
+    },
+    "author" : {
+      "name" : "Lars Bitsch-Larsen, Vebjørn Arntzen",
+      "organisation" : "Haukeland University Hospital of Bergen, Norway, Oslo University Hospital",
+      "email" : "lbla@helse-bergen.no, varntzen@ous-hf.no"
+    },
+    "accreditation" : "MD, DEAA, MBA, spec in anesthesia, spec in tropical medicine.",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : {
+      "name" : "Dennis Valk",
+      "organisation" : "Code24 BV",
+      "email" : "dennis.valk@code24.nl, dennis@code24.nl"
+    },
+    "accreditation" : "Code24 BV",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lauramoral@catsalut.cat"
+    },
+    "otherDetails" : { }
+  } ]
+}
